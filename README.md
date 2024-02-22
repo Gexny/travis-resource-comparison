@@ -1,2 +1,2 @@
 # travis-resource-comparison
-Travis CI resource comparison
+Travis CI resource comparison.
