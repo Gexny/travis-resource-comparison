@@ -4,6 +4,20 @@ python: "3.8"
 jobs:
   include:
     - stage: "Stage 1"
-      name: "Heavy Calculation Part 1"
+      name: "Heavy Calculation:
       script: python3 heavy_calculation_script.py
-install: skip
+        - stage: "Stage 2"
+      name: "Heavy Calculation"
+      script: python3 heavy_calculation_script.py
+        - stage: "Stage 3"
+      name: "Heavy Calculation"
+      script: python3 heavy_calculation_script.py
+        - stage: "Stage 4"
+      name: "Heavy Calculation"
+      script: python3 heavy_calculation_script.py
+        - stage: "Stage 5"
+      name: "Heavy Calculation"
+      script: python3 heavy_calculation_script.py
+        - stage: "Stage 6"
+      name: "Heavy Calculation"
+      script: python3 heavy_calculation_script.py
