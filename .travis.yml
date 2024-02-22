@@ -6,3 +6,4 @@ jobs:
     - stage: "Stage 1"
       name: "Heavy Calculation Part 1"
       script: python3 heavy_calculation_script.py
+install: skip
