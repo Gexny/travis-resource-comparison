@@ -27,3 +27,9 @@ jobs:
     - stage: "Stage 6"
       name: "Heavy Calculation Part 6"
       script: python3 heavy_calculation_script.py
+    - stage: "Stage 6"
+      name: "Heavy Calculation Part 6"
+      script: python3 heavy_calculation_script.py
+    - stage: "Stage 6"
+      name: "Heavy Calculation Part 6"
+      script: python3 heavy_calculation_script.py
