@@ -4,16 +4,14 @@ python: "3.8"
 jobs:
   include:
     - stage: "Stage 1"
-      name: "Heavy Calculation:
+      name: "Heavy Calculation Part 1"
       script: python3 heavy_calculation_script.py
-        - stage: "Stage 2"
-      name: "Heavy Calculation"
+    - stage: "Stage 2"
+      name: "Heavy Calculation Part 2"
       script: python3 heavy_calculation_script.py
-        - stage: "Stage 3"
-      name: "Heavy Calculation"
+    - stage: "Stage 3"
+      name: "Heavy Calculation Part 3"
       script: python3 heavy_calculation_script.py
-        - stage: "Stage 4"
-      name: "Heavy Calculation"
+    - stage: "Stage 4"
+      name: "Heavy Calculation Part 4"
       script: python3 heavy_calculation_script.py
-        - stage: "Stage 5"
-      
